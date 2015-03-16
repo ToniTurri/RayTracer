@@ -107,7 +107,7 @@ int main(int argc, char **argv) {
 
 	BMP Image(WIDTH, HEIGHT);
 	double aspectRatio = (double) WIDTH / (double) HEIGHT;
-	unsigned char ambientLight = 255; //
+	unsigned char ambientLight = 0; // no ambient lighting
 	double accuracy = 0.00000001;
 
 	Vector X = Vector::X();
